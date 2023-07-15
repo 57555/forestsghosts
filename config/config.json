@@ -1,0 +1,18 @@
+{
+    "CONTRACT_ADDRESS": "0x32f8d557146728BE33C2FA7e6434821D3565ef7e",
+    "SCAN_LINK": "https://polygonscan.com/address/0x32f8d557146728be33c2fa7e6434821d3565ef7e",
+    "NETWORK": {
+        "NAME": "Polygon",
+        "SYMBOL": "Matic",
+        "ID": 137
+    },
+    "NFT_NAME": "Forests Ghosts",
+    "SYMBOL": "FGH",
+    "MAX_SUPPLY": 10000,
+    "WEI_COST": 9000000000000000000,
+    "DISPLAY_COST": 9,
+    "GAS_LIMIT": 285000,
+    "MARKETPLACE": "Opeansea",
+    "MARKETPLACE_LINK": "https://opensea.io/collection/forests-ghosts",
+    "SHOW_BACKGROUND": true
+}
