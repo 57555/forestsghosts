@@ -1,0 +1,105 @@
+body{
+    background: #464549
+}
+nav {
+    margin: 28px auto;
+    position: relative;
+    margin: 20px;
+    height: 50px;
+    background-color: #171717;
+    border-radius: 8px;
+    text-align: center;
+} 
+.menu{
+    color: white;
+    text-decoration: none;
+    margin:0 50px 0 50px;
+    line-height: 50px;
+    height: 100%;
+    font-size: 15px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+
+}
+.menu:hover{
+    color: rgb(105, 103, 97);
+}
+.roadmap{
+    text-align: center;
+}
+.roadmap h1{
+    color: rgb(209, 209, 209);
+   
+}
+.roadmap div{
+    background-color: rgb(92, 91, 89);
+    margin-top: 10px;
+    text-align: center;
+    padding: 20px;
+    margin: 10px 150px 10px 150px;
+    border-radius:20px ;
+    box-shadow:0 2px 5px rgb(255, 132, 0);
+    font-weight: bold;
+    border: 1px solid black;
+     }
+.game{
+    text-align: center;
+}
+.game h1{
+    color: rgb(209, 209, 209);
+}
+.game p{
+ font-size: 18px;
+ background-color:rgb(103, 103, 99) ;
+ box-shadow:0 2px 5px rgb(255, 132, 0);
+ padding: 20px;
+ margin: 10px 150px 10px 150px;
+ border-radius:10px;
+ font-weight: bold;
+ border: 1px solid black;
+}
+.game video {
+    margin: 10px;
+    border-radius:10px;
+}
+.mint{
+    text-align: center;
+    color:rgb(232, 196, 121) ;
+    cursor: pointer;
+    margin: 40px;
+}
+.about{
+    text-align: center;
+    background-color: rgb(197, 174, 116);
+   
+}
+.about h1{
+    margin:50px;
+    padding:20px;
+}
+.about p{
+    font-size: 18px;
+    margin:20px 0 20px 0;
+}
+.img-au div img{
+    display: inline-block;
+   font-size: 18px;
+   border-radius: 50%;
+   width: 100px;
+   height: 100px;
+   filter: contrast(65%);
+   margin: 10px;
+   text-align: center;
+
+}
+.flex{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+}
+.connect{
+    background-color: #54555a;
+}
