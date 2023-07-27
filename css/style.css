@@ -4,9 +4,9 @@ body{
 nav {
     margin: 28px auto;
     position: relative;
-    margin: 20px;
+    margin: 0px;
     height: 50px;
-    background-color: #171717;
+    background-color: #54555a;
     border-radius: 8px;
     text-align: center;
 } 
@@ -27,21 +27,79 @@ nav {
 .menu:hover{
     color: rgb(105, 103, 97);
 }
+.hero{
+   background-image:url("../assets/img/bg2.png")  ;
+   background-size:cover ;
+   background-position: center;
+   width: 100%;
+   height:700px;
+   display:absolute ;
+}
+.hero p{
+    font-size: 60px;
+    color: aliceblue;
+}
+.logo{
+    margin: 0 650px 100px 650px;
+    background-color: #464549;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 60px;
+    width: 100px;
+}
+.hero a:nth-child(2){
+  border: 1px solid #868586;
+  margin: 10px 200px 10px 200px;
+  font-size: 20px;
+  width: 400px;
+  border-radius: 10px;
+  text-decoration: line-through;
+  margin: 10px 200px 10px 500px;
+  padding: 30px;
+}
+.hero a:nth-child(3){
+    background-color: orange;
+    border-radius: 10px;
+    margin: 10px 200px 10px 500px;
+    padding: 30px;
+    font-size: 20px;
+    box-shadow:0 2px 5px rgb(255, 132, 0);
+    text-align:center;
+    cursor: pointer;
+    width:400px;
+    height: 100px;
+}
+.flex-col{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    text-align: center;
+}
+.gif-header{
+   display: relative ;
+   bottom: 200px;
+   right: 500px;
+   border-radius: 50%;
+   border:5px dashed rgb(255, 162, 0);
+   background-color: #464549;
+   width:100px;
+}
 .roadmap{
     text-align: center;
+    background-color: #464549;
 }
 .roadmap h1{
     color: rgb(209, 209, 209);
    
 }
 .roadmap div{
-    background-color: rgb(92, 91, 89);
+    background-color: #96b0af;
     margin-top: 10px;
     text-align: center;
     padding: 20px;
     margin: 10px 150px 10px 150px;
     border-radius:20px ;
-    box-shadow:0 2px 5px rgb(255, 132, 0);
+    box-shadow:0 2px 5px rgb(58, 55, 53);
     font-weight: bold;
     border: 1px solid black;
      }
@@ -49,12 +107,12 @@ nav {
     text-align: center;
 }
 .game h1{
-    color: rgb(209, 209, 209);
+    color: rgb(184, 181, 181);
 }
-.game p{
+.game {
  font-size: 18px;
  background-color:rgb(103, 103, 99) ;
- box-shadow:0 2px 5px rgb(255, 132, 0);
+ box-shadow:0 2px 5px #e7dbcb;
  padding: 20px;
  margin: 10px 150px 10px 150px;
  border-radius:10px;
@@ -64,6 +122,18 @@ nav {
 .game video {
     margin: 10px;
     border-radius:10px;
+   
+}
+.game p{
+    margin-left: 300px;
+    
+    text-align: justify;
+}
+.video{
+    background-color: #262425;
+    height: 400px;
+    text-align: center;
+    
 }
 .mint{
     text-align: center;
@@ -91,15 +161,27 @@ nav {
    width: 100px;
    height: 100px;
    filter: contrast(65%);
-   margin: 10px;
+   margin: 10px ;
+   margin-bottom: 30px;
    text-align: center;
+   padding: 10px;
+
 
 }
 .flex{
     display: flex;
     flex-direction:row;
     justify-content: center;
+    
 }
 .connect{
     background-color: #54555a;
+}
+.footer i{
+    color: white;
+    font-size: 36px;
+}
+.footer-icon{
+    margin: 20px;
+    padding: 40px;
 }
